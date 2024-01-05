@@ -1,0 +1,6 @@
+১) What Do You Understand By The Universal Sector?
+২) Differentiate Between The Use Of ID Selector And Class Selector.
+৩) How Can You Use CSS To Control Image Repetition?
+৪) Are The HTML Tags And Elements The Same Thing?
+
+Interview Questions
