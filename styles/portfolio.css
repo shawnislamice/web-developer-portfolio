@@ -1,0 +1,241 @@
+/* Common Shared Styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+/* Nav related styles */
+/* Primary Color */
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+    
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+
+}
+/* Header related styles */
+header{
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-bottom: 130px;
+}
+.banner{
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-picture{
+    width: 500px;
+}
+.banner .banner-greeting{
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.banner .banner-title{
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-top: 0;
+    
+}
+.banner .banner-content{
+    max-width: 500px;
+    
+}
+/* Main Section */
+
+/* About Section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin-top: 0 0;
+    
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.about-info{
+    text-align: center;
+}
+/* Skills related CSS */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 33px;
+    border-radius: 5px;
+    
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+main section{
+    margin-top: 130px;
+}
+/* Resume Section Styles */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-item-institute{
+    color:#757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.resume-item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.resume-item{
+    margin-bottom: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-bottom: 113px;
+    margin-top: 50px;
+}
+/* Footer styles */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 113px;
+    
+}
+.footer-column{
+    width: 50%;
+    margin-bottom: 0;
+}
+.contact input[type="text"], input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 18px 30px;
+    color:  #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 24px;
+    margin-top: 30px;
+}
+.footer-column .section-description{
+    color:  #474747;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-top: 20px;
+}
+
